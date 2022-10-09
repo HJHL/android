@@ -4,6 +4,8 @@ site_author: Li Jiahui
 site_description: A Android programer's notes
 nav:
   - 'index.md'
+  - 'Gradle':
+      - 'gradle/print-dependencies-tree.md'
   - 'about.md'
   - 'tags.md'
 theme:
