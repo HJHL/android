@@ -3,8 +3,22 @@ site_url: https://HJHL.github.io/android
 site_author: Li Jiahui
 site_description: A Android programer's notes
 nav:
-  - Home: 'index.md'
-  - About: 'about.md'
+  - 'index.md'
+  - 'about.md'
+  - 'tags.md'
 theme:
   name: material
   language: zh
+  icon:
+    repo: fontawesome/brands/github
+repo_url: https://github.com/HJHL/android.git
+repo_name: HJHL/android
+plugins:
+  - tags:
+      tags_file: tags.md
+  - search
+  - git-revision-date-localized:
+      type: iso_datetime
+      fallback_to_build_date: false
+      enable_creation_date: true
+      enabled: true
